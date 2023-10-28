@@ -1,0 +1,23 @@
+{% extends "blog/base.html"%}
+{% load static %} 
+{% block content %}
+<div class="about-container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="about-image">
+                <img src="{% static 'blog/profile.jpg' %}" alt="Amrulloh" class="img-fluid rounded-circle">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="about-text">
+                <h1 class="display-4">About Me</h1>
+                <p>Welcome to my Django blog!</p>
+                <p>I'm an independent, self-taught aspiring Django web developer, and this is my first project. This blog web application is a showcase of my journey as I learn and grow in the world of web development.</p>
+                <p>On this platform, you'll find a collection of my thoughts, experiences, and projects related to Django and web development in general. I'm passionate about creating beautiful and functional web applications, and I'm excited to share my progress with you.</p>
+                <p>Feel free to explore the blog, read my posts, and get in touch with me if you have any questions or suggestions. I'm always eager to connect with fellow developers and learn from the community.</p>
+                <p>Thank you for visiting, and I hope you enjoy your time here!</p>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock content%}
